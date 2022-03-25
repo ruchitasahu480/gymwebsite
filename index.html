@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruchita's Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Css reset */
+        body {
+            margin: 0;
+            padding: 0;
+            background: url("abs-1850926_960_720.webp");
+            height: 750px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Kanit', sans-serif;
+
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 15px;
+            color: white;
+            border: 2px solid white;
+            display: inline-block;
+        }
+
+        .center {
+            /* border: 2px solid green; */
+            color: white;
+            display: block;
+            width: 711px;
+            margin: 15px auto;
+
+        }
+
+
+        .right {
+            position: absolute;
+            right: 0px;
+            top: 15px;
+            /* border: 2px solid red; */
+            color: white;
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            font-size: 25px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: grey;
+
+        }
+
+        /* hover jab mouse uske upar leke jaye tho underline ho jayega   ___*/
+
+
+        .left img {
+
+            width: 126px;
+            filter: invert(100%);
+            /* we use it change the colour of any image  from black to white or white to black*/
+        }
+
+        .btn {
+            margin: 0px 10px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid white;
+            border-radius: 15px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+            border: 3px solid white;
+            border-radius: 10px;
+            width:693px;
+            height: 400px;
+
+            color: white;
+            position: absolute;
+            right: 13px;
+            top: 307px;
+        }
+
+        .form-group input {
+            margin: 10px auto;
+            display: block;
+            width: 400px;
+            text-align: center;
+            padding: 2px;
+            border-radius: 120px;
+            font-family: 'Kanit', sans-serif;
+            font-size: 25px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .container button {
+            display: block;
+            margin: auto;
+            width: 400px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- left for logo -->
+        <div class="left">
+            <img src="th.jpg" alt="">
+        </div>
+
+        <!-- center for navigation bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#"> Home</a> </li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#">Fitness Calculator</a> </li>
+                <li><a href="#">Contact us</a> </li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">
+                Call us Now
+            </button>
+
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            Join the best Gym of Chhattisgarh Now
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+</body>
+
+</html>
+
+
+
+
+
+<!-- display vlock h tho width set krke margin auto krke element center mai la skde hai -->
+
+
+<!-- display inline mai koi chedchat nhi kr skde  -->
+
+
+<!-- display inline block mai heigh width se chechad krke margin auto krke centr peh la skde hai element ko -->
